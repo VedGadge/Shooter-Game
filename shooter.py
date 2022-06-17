@@ -463,7 +463,7 @@ class ItemBox(pygame.sprite.Sprite):
                     player.health = player.max_health
             elif self.item_type == 'Ammo':
                 player.ammo += 15
-            elif self.item_type == ' Grenade':
+            elif self.item_type == 'Grenade':
                 player.grenades += 3
                 
             # delete the item box
